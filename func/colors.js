@@ -1,7 +1,6 @@
-
 const isHexColor = color => color?.match?.(/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/);
 const colorFunctions = {
-	bold: text => `\x1b[1m${text}\x1b[0m`,
+	bold: text => `\x1b[1m${text}\x1b[0m`,}
 	italic: text => `\x1b[3m${text}\x1b[0m`,
 	underline: text => `\x1b[4m${text}\x1b[0m`,
 	strikethrough: text => `\x1b[9m${text}\x1b[0m`,
@@ -86,4 +85,4 @@ for (const key in colorFunctions) {
 module.exports = {
 	isHexColor,
 	colors
-};
+		};;
